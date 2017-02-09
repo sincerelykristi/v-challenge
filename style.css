@@ -1,0 +1,88 @@
+html, body {
+  font-family: "Helvetica", Arial, sans-serif;
+  margin: 0;
+}
+
+/* First Section: Including the 'Monsoon' image and text;  Mobile First */
+
+.wrapper-one {
+  background-color: #FFFFFF;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.monsoon-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.monsoon-section img {
+  max-width: 100%;
+}
+
+.monsoon-text {
+  max-width: 100%;
+  order: -1;
+  line-height: 1.4em;
+  margin: 0 0 60px 0;
+}
+
+.monsoon-text h1 {
+  text-transform: uppercase;
+  margin: 1px 0 8px 0;
+}
+
+.monsoon-text p {
+  margin: 0;
+  color: #666666;
+}
+
+.wrapper-two {
+  background-color: #383838;
+  background-image: linear-gradient(#383838, #FFFFFF);
+}
+
+@media only screen and (min-width: 992px) {
+
+/* First Section: Including the 'Monsoon' image and text;  Large Screens */
+
+  .wrapper-one {
+  flex-direction: row;
+  justify-content: center;
+  }
+
+  .monsoon-section {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 75%;
+  }
+
+  .monsoon-section img {
+    margin-right: 15px;
+    flex: 1;
+  }
+
+  .monsoon-text {
+    order: 1;
+    flex: 1;
+    margin: 0 0 0 15px;
+  }
+
+  .monsoon-text p {
+    flex: 1;
+  }
+
+}
+
+
+
+
+
+
