@@ -106,6 +106,7 @@ html, body {
 
 .big-text {
   width: 100%;
+  order: -1;
   line-height: 1.4em;
   margin: 0 0 60px 0;
 }
@@ -117,6 +118,55 @@ html, body {
 
 .big-text p {
   margin: 0;
+}
+
+/* Carousel Section */
+
+.wrapper-carousel {
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.background-image {
+  background-image: url('images/frances.jpg');
+  background-size: cover;
+  min-height: 150%;
+  width: 150%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  filter: blur(30px);
+}
+
+.carousel-container {
+  display: flex;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.carousel-container img {
+  max-width: 100%;
+}
+
+.carousel-text {
+  color: white;
+}
+
+.carousel-text h1 {
+  margin: 0;
+}
+
+.carousel-text p {
+  margin-bottom: 10px;
 }
 
 /* Medium/Tablet Screen Media Query */
@@ -136,6 +186,11 @@ html, body {
     padding: 0 100px;
   }
 
+/* Move 2 Section */
+
+  .big-text {
+    padding: 0 100px;
+  }
 }
 
 
@@ -146,8 +201,9 @@ html, body {
 /* First Section: Including the 'Monsoon' image and text;  Large Screens */
 
   .wrapper-one {
-  flex-direction: row;
-  justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
   }
 
   .monsoon-section {
@@ -209,7 +265,51 @@ html, body {
 
   .big-text {
     margin-left: 20px;
+    padding: 0;
+    order: 1;
   }
+
+  .wrapper-carousel {
+    width: 100%;
+  }
+
+  .carousel-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+    color: #FFFFFF;
+  }
+
+  .carousel-container img {
+    width: 300px;
+    margin: 0 3rem;
+  }
+
+  .carousel-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 3rem;
+  }
+
+  .coursel-text .button-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .carousel-text button {
+    background: transparent;
+    font-size: 1.1rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 5%;
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+    color: #FFFFFF;
+  }
+
 
 }
 
