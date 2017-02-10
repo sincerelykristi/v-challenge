@@ -28,15 +28,15 @@ html, body {
 }
 
 .monsoon-text {
-  max-width: 100%;
+  width: 100%;
   order: -1;
   line-height: 1.4em;
-  margin: 0 0 60px 0;
+  margin-bottom: 60px;
 }
 
 .monsoon-text h1 {
   text-transform: uppercase;
-  margin: 1px 0 8px 0;
+  margin: 8px 0;
 }
 
 .monsoon-text p {
@@ -44,10 +44,96 @@ html, body {
   color: #666666;
 }
 
+/* Second Section: Including the 'Beams' and 'Move 2' image and text;  Mobile First */
+
 .wrapper-two {
   background-color: #383838;
   background-image: linear-gradient(#383838, #FFFFFF);
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+/* Beams section */
+
+.beams-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.beams-section img {
+  max-width: 100%;
+}
+
+.beams-text {
+  width: 100%;
+  order: -1;
+  line-height: 1.4em;
+  margin: 0 0 60px 0;
+}
+
+.beams-text h1 {
+  text-transform: uppercase;
+  margin: 8px 0;
+}
+
+.beams-text p {
+  margin: 0;
+}
+
+/* Move 2 Section */
+
+.big-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.big-section img {
+  max-width: 100%;
+}
+
+.big-text {
+  width: 100%;
+  /* order: -1; */
+  line-height: 1.4em;
+  margin: 0 0 60px 0;
+}
+
+.big-text h1 {
+  text-transform: uppercase;
+  margin: 8px 0;
+}
+
+.big-text p {
+  margin: 0;
+}
+
+/*tablets*/
+
+@media (min-width:768px) {
+
+  .monsoon-section img {
+    max-width: 100%;
+  }
+  .monsoon-text {
+    padding: 0 100px;
+  }
+
+}
+
+
+/* Large Screen Media Query */
 
 @media only screen and (min-width: 992px) {
 
@@ -61,22 +147,60 @@ html, body {
   .monsoon-section {
     display: flex;
     flex-wrap: nowrap;
-    width: 75%;
+    max-width: 75%;
   }
 
   .monsoon-section img {
-    margin-right: 15px;
-    flex: 1;
+    margin-right: 20px;
   }
 
   .monsoon-text {
     order: 1;
-    flex: 1;
-    margin: 0 0 0 15px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 20px;
   }
 
-  .monsoon-text p {
-    flex: 1;
+  /* Second Section: Including the 'Beams' and 'Move 2' image and text;  Mobile First */
+
+  .wrapper-two {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Beams section */
+
+  .beams-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 75%;
+  }
+
+  .beams-section img {
+    margin-left: 20px;
+  }
+
+  .beams-text {
+    margin-right: 20px;
+  }
+
+  /* Move 2 Section */
+
+  .big-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 75%;
+  }
+
+  .big-section img {
+    margin-right: 20px;
+    /* order: 1; */
+  }
+
+  .big-text {
+    margin-left: 20px;
   }
 
 }
