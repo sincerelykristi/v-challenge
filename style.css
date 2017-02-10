@@ -47,10 +47,10 @@ html, body {
 /* Second Section: Including the 'Beams' and 'Move 2' image and text;  Mobile First */
 
 .wrapper-two {
-  background-color: #383838;
-  background-image: linear-gradient(#383838, #FFFFFF);
-  padding-bottom: 8rem;
-  padding-top: 8rem;
+  background-color: #474747;
+  background-image: linear-gradient(0deg, #FFFFFF 0%, #474747 50%, #474747 100%);
+  padding-bottom: 12rem;
+  padding-top: 12rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,6 +66,7 @@ html, body {
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
+  margin-bottom: 4em;
 }
 
 .beams-section img {
@@ -105,7 +106,6 @@ html, body {
 
 .big-text {
   width: 100%;
-  /* order: -1; */
   line-height: 1.4em;
   margin: 0 0 60px 0;
 }
@@ -119,21 +119,27 @@ html, body {
   margin: 0;
 }
 
-/*tablets*/
+/* Medium/Tablet Screen Media Query */
 
 @media (min-width:768px) {
 
-  .monsoon-section img {
-    max-width: 100%;
-  }
+/* First Section: Including the 'Monsoon' image and text;  Tablet */
+
   .monsoon-text {
+    padding: 0 100px;
+  }
+
+/* Second Section: Including the 'Beams' and 'Move 2' image and text;  Tablet */
+/* Beams section */
+
+  .beams-text {
     padding: 0 100px;
   }
 
 }
 
 
-/* Large Screen Media Query */
+/* Large/Desktop Screen Media Query */
 
 @media only screen and (min-width: 992px) {
 
@@ -146,6 +152,8 @@ html, body {
 
   .monsoon-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     max-width: 75%;
   }
@@ -158,7 +166,7 @@ html, body {
     order: 1;
     margin-left: 20px;
     margin-bottom: 0;
-    padding: 20px;
+    padding: 0;
   }
 
   /* Second Section: Including the 'Beams' and 'Move 2' image and text;  Mobile First */
@@ -183,6 +191,7 @@ html, body {
 
   .beams-text {
     margin-right: 20px;
+    padding: 0;
   }
 
   /* Move 2 Section */
@@ -196,7 +205,6 @@ html, body {
 
   .big-section img {
     margin-right: 20px;
-    /* order: 1; */
   }
 
   .big-text {
