@@ -1,304 +1,200 @@
-html, body {
-  font-family: "Helvetica", Arial, sans-serif;
-  margin: 0;
+html,
+body {
+    font-family: "Helvetica", Arial, sans-serif;
+    margin: 0;
 }
+
 
 /* First Section: Including the 'Monsoon' image and text;  Mobile First */
 
 .wrapper-one {
-  background-color: #FFFFFF;
-  padding-bottom: 8rem;
-  padding-top: 8rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    background-color: #FFFFFF;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .monsoon-section {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
 }
 
 .monsoon-section img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .monsoon-text {
-  width: 100%;
-  order: -1;
-  line-height: 1.4em;
-  margin-bottom: 60px;
+    width: 100%;
+    order: -1;
+    line-height: 1.4em;
+    margin-bottom: 60px;
 }
 
 .monsoon-text h1 {
-  text-transform: uppercase;
-  margin: 8px 0;
+    text-transform: uppercase;
+    margin: 8px 0;
 }
 
 .monsoon-text p {
-  margin: 0;
-  color: #666666;
+    margin: 0;
+    color: #666666;
 }
+
 
 /* Second Section: Including the 'Beams' and 'Move 2' image and text;  Mobile First */
 
 .wrapper-two {
-  background-color: #474747;
-  background-image: linear-gradient(0deg, #FFFFFF 0%, #474747 50%, #474747 100%);
-  padding-bottom: 12rem;
-  padding-top: 12rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    background-color: #474747;
+    background-image: linear-gradient(0deg, #FFFFFF 0%, #474747 50%, #474747 100%);
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 
 /* Beams section */
 
 .beams-section {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  margin-bottom: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 4em;
 }
 
 .beams-section img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .beams-text {
-  width: 100%;
-  order: -1;
-  line-height: 1.4em;
-  margin: 0 0 60px 0;
+    width: 100%;
+    order: -1;
+    line-height: 1.4em;
+    margin: 0 0 60px 0;
 }
 
 .beams-text h1 {
-  text-transform: uppercase;
-  margin: 8px 0;
+    text-transform: uppercase;
+    margin: 8px 0;
 }
 
 .beams-text p {
-  margin: 0;
+    margin: 0;
 }
+
 
 /* Move 2 Section */
 
 .big-section {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 .big-section img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .big-text {
-  width: 100%;
-  order: -1;
-  line-height: 1.4em;
-  margin: 0 0 60px 0;
+    width: 100%;
+    order: -1;
+    line-height: 1.4em;
+    margin: 0 0 60px 0;
 }
 
 .big-text h1 {
-  text-transform: uppercase;
-  margin: 8px 0;
+    text-transform: uppercase;
+    margin: 8px 0;
 }
 
 .big-text p {
-  margin: 0;
+    margin: 0;
 }
+
 
 /* Carousel Section */
 
 .wrapper-carousel {
-  padding-bottom: 8rem;
-  padding-top: 8rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .background-image {
-  background-image: url('images/frances.jpg');
-  background-size: cover;
-  min-height: 150%;
-  width: 150%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  filter: blur(30px);
+    background-image: url('images/frances.jpg');
+    background-size: cover;
+    min-height: 150%;
+    width: 150%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    filter: blur(30px);
 }
 
 .carousel-container {
-  display: flex;
-  z-index: 9999;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: 100%;
+    display: flex;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-direction: row;
+    color: #FFFFFF;
 }
 
-.carousel-container img {
-  max-width: 100%;
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+}
+
+.movie-container img {
+    width: 250px;
+    margin: 0 2rem;
 }
 
 .carousel-text {
-  color: white;
+    color: white;
+    margin-top: 20px;
 }
 
 .carousel-text h1 {
-  margin: 0;
+    margin: 0;
 }
 
 .carousel-text p {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-/* Medium/Tablet Screen Media Query */
-
-@media (min-width:768px) {
-
-/* First Section: Including the 'Monsoon' image and text;  Tablet */
-
-  .monsoon-text {
-    padding: 0 100px;
-  }
-
-/* Second Section: Including the 'Beams' and 'Move 2' image and text;  Tablet */
-/* Beams section */
-
-  .beams-text {
-    padding: 0 100px;
-  }
-
-/* Move 2 Section */
-
-  .big-text {
-    padding: 0 100px;
-  }
+.carousel-text .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-
-/* Large/Desktop Screen Media Query */
-
-@media only screen and (min-width: 992px) {
-
-/* First Section: Including the 'Monsoon' image and text;  Large Screens */
-
-  .wrapper-one {
-    flex-direction: row;
-    justify-content: center;
-    width: 90%;
-  }
-
-  .monsoon-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    max-width: 75%;
-  }
-
-  .monsoon-section img {
-    margin-right: 20px;
-  }
-
-  .monsoon-text {
-    order: 1;
-    margin-left: 20px;
-    margin-bottom: 0;
-    padding: 0;
-  }
-
-  /* Second Section: Including the 'Beams' and 'Move 2' image and text;  Mobile First */
-
-  .wrapper-two {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  /* Beams section */
-
-  .beams-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    max-width: 75%;
-  }
-
-  .beams-section img {
-    margin-left: 20px;
-  }
-
-  .beams-text {
-    margin-right: 20px;
-    padding: 0;
-  }
-
-  /* Move 2 Section */
-
-  .big-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    max-width: 75%;
-  }
-
-  .big-section img {
-    margin-right: 20px;
-  }
-
-  .big-text {
-    margin-left: 20px;
-    padding: 0;
-    order: 1;
-  }
-
-  .wrapper-carousel {
-    width: 100%;
-  }
-
-  .carousel-container {
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-width: 100%;
-    color: #FFFFFF;
-  }
-
-  .carousel-container img {
-    width: 300px;
-    margin: 0 3rem;
-  }
-
-  .carousel-text {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin: 0 3rem;
-  }
-
-  .coursel-text .button-container {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .carousel-text button {
+.carousel-text button {
     background: transparent;
     font-size: 1.1rem;
     border: 1px solid #FFFFFF;
@@ -308,10 +204,142 @@ html, body {
     margin: 15px;
     padding: 15px;
     color: #FFFFFF;
-  }
-
-
 }
+
+/* styling for left and right arrows */
+
+#right:hover, #left:hover {
+  color: #00CDCD;
+}
+
+/* Medium/Tablet Screen Media Query */
+
+@media (min-width:768px) {
+    /* First Section: Including the 'Monsoon' image and text;  Tablet */
+    .monsoon-text {
+        padding: 0 100px;
+    }
+    /* Second Section: Including the 'Beams' and 'Move 2' image and text;  Tablet */
+    /* Beams section */
+    .beams-text {
+        padding: 0 100px;
+    }
+    /* Move 2 Section */
+    .big-text {
+        padding: 0 100px;
+    }
+}
+
+
+/* Large/Desktop Screen Media Query */
+
+@media only screen and (min-width: 992px) {
+    /* First Section: Including the 'Monsoon' image and text;  Large Screens */
+    .wrapper-one {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .monsoon-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        max-width: 75%;
+    }
+    .monsoon-section img {
+        margin-right: 20px;
+    }
+    .monsoon-text {
+        order: 1;
+        margin-left: 20px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    /* Second Section: Including the 'Beams' and 'Move 2' image and text;  Mobile First */
+    .wrapper-two {
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* Beams section */
+    .beams-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        max-width: 75%;
+    }
+    .beams-section img {
+        margin-left: 20px;
+    }
+    .beams-text {
+        margin-right: 20px;
+        padding: 0;
+    }
+    /* Move 2 Section */
+    .big-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        max-width: 75%;
+    }
+    .big-section img {
+        margin-right: 20px;
+    }
+    .big-text {
+        margin-left: 20px;
+        padding: 0;
+        order: 1;
+    }
+    .wrapper-carousel {
+        width: 100%;
+    }
+    .carousel-container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        max-width: 100%;
+        color: #FFFFFF;
+    }
+    .movie-container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        max-width: 100%;
+        color: #FFFFFF;
+        text-align: left;
+    }
+    .movie-container img {
+        max-width: 100%;
+        width: 300px;
+        margin: 0 3rem;
+    }
+    .carousel-text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 0 3rem;
+    }
+    .carousel-text .button-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .carousel-text button {
+        background: transparent;
+        font-size: 1.1rem;
+        border: 1px solid #FFFFFF;
+        border-radius: 5%;
+        display: inline-block;
+        width: 150px;
+        margin: 15px;
+        padding: 15px;
+        color: #FFFFFF;
+    }
+
+    #buy-button {
+      background: #c4319f;
+    }
+}
+
 
 
 
