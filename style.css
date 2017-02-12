@@ -252,10 +252,12 @@ body {
     }
     .monsoon-text {
         order: 1;
+        min-width: 450px;
         margin-left: 20px;
         margin-bottom: 0;
         padding: 0;
     }
+
     /* Second Section: Including the 'Beams' and 'Move 2' image and text;  Mobile First */
     .wrapper-two {
         flex-direction: column;
@@ -274,6 +276,7 @@ body {
     .beams-text {
         margin-right: 20px;
         padding: 0;
+        min-width: 450px;
     }
     /* Move 2 Section */
     .big-section {
@@ -289,6 +292,7 @@ body {
         margin-left: 20px;
         padding: 0;
         order: 1;
+        min-width: 450px;
     }
     .wrapper-carousel {
         width: 100%;
